@@ -1,4 +1,4 @@
-learpackage main
+package main
 
 import (
 	"fmt"
