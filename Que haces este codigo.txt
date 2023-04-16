@@ -1,0 +1,2 @@
+Declaracion de variables cortas :=, variables globales con var
+Ejemplos simples de un for y un if
