@@ -25,6 +25,4 @@ func main() {
 	fmt.Println(a, b, c)
 	fmt.Println(sumamongus(d))
 
-	fmt.Println("Prueba eliminar branch")
-
 }
