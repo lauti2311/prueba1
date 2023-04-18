@@ -7,7 +7,6 @@ func swap(x, y string, c int) (string, string, int) {
 }
 
 func sumamongus(valor int) (resultado1, resultado2 int) {
-	valor = 5
 
 	resultado1 = valor * 2
 
@@ -23,18 +22,18 @@ var x = `Amongs "Amongus"`
 func main() {
 
 	var c int
-	var d int
+	var d int = 8
 	a, b, c := swap("hello", "world", 2)
 
 	fmt.Println(a, b, c)
 	fmt.Println(sumamongus(d))
 
 	fmt.Println(y)
-
 	fmt.Printf("%T\n", y)
 
 	fmt.Println(z)
 	fmt.Printf("%T\n", z)
+
 	fmt.Println(x)
 	fmt.Printf("%T\n", x)
 
