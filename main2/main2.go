@@ -16,6 +16,10 @@ func sumamongus(valor int) (resultado1, resultado2 int) {
 	return
 }
 
+var y = 42
+var z = "Amongus"
+var x = `Amongs "Amongus"`
+
 func main() {
 
 	var c int
@@ -24,5 +28,14 @@ func main() {
 
 	fmt.Println(a, b, c)
 	fmt.Println(sumamongus(d))
+
+	fmt.Println(y)
+
+	fmt.Printf("%T\n", y)
+
+	fmt.Println(z)
+	fmt.Printf("%T\n", z)
+	fmt.Println(x)
+	fmt.Printf("%T\n", x)
 
 }
