@@ -31,4 +31,27 @@ func main() {
 		fmt.Println(z)
 		z++
 	}
+
+	//Division, resto
+	c := 41 % 40
+	d := 41 / 40
+	fmt.Println(c, d)
+	a := 1
+	for {
+		a++
+		if a > 100 {
+			break
+		}
+		if a%2 != 0 {
+			continue
+		}
+		fmt.Println(a)
+
+	}
+
+	fmt.Println("FIN")
+	for i := 33; i <= 122; i++ {
+		fmt.Printf("%v\t%#x\t%#U\n", i, i, i) //asci %valor, ascii %#U, %#x hexadecimal
+	}
+
 }
