@@ -11,7 +11,6 @@ func sumamongus(valor int) (resultado1, resultado2 int) {
 	resultado1 = valor * 2
 
 	resultado2 = valor + 2
-
 	return
 }
 

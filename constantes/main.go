@@ -12,6 +12,7 @@ const (
 	//Tambien puedo ponerle iota al primer valor, y los que le siguen, van a incrementar su valor
 )
 
+//Mediante iota vamos multiplicando el numero.
 const (
 	_ = iota
 	//kb = 1024
