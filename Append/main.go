@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 func main() {
+
+	//apend, agregar valores a un slice
 	xi := []int{41, 42, 43}
 
 	fmt.Println(xi)

@@ -8,5 +8,7 @@ func main() {
 	fmt.Println(jb)
 	fmt.Println(jm)
 
-	xp := [][]string(jb, jm)
+	xp := [][]string{jb, jm}
+	fmt.Println(xp)
+
 }
